@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>NHibernate</id>
+        <version>4.0.5.9999</version>
+        <authors>NHibernate community,Hibernate community</authors>
+        <owners>NHibernate community,Hibernate community</owners>
+        <licenseUrl>https://raw.github.com/nhibernate/nhibernate-core/master/lgpl.txt</licenseUrl>
+        <projectUrl>http://www.nhforge.org</projectUrl>
+        <iconUrl>https://raw.github.com/nhibernate/nhibernate-core/master/logo/NHibernate-NuGet.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>THIS IS THE RSUI NHibernate.     NHibernate is a mature, open source object-relational mapper for the .NET framework. It is actively developed, fully featured and used in thousands of successful projects.</description>
+        <summary>NHibernate is a mature, open source object-relational mapper for the .NET framework. It is actively developed, fully featured and used in thousands of successful projects.</summary>
+        <language>en-US</language>
+        <tags>ORM, DataBase, DAL, ObjectRelationalMapping</tags>
+        <dependencies>
+            <dependency id="Iesi.Collections" version="[4.0, 5.0)" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Configuration_Templates\FireBird.cfg.xml" target="ConfigurationTemplates\FireBird.cfg.xml" />
+        <file src="Configuration_Templates\MSSQL.cfg.xml" target="ConfigurationTemplates\MSSQL.cfg.xml" />
+        <file src="Configuration_Templates\MySql.cfg.xml" target="ConfigurationTemplates\MySql.cfg.xml" />
+        <file src="Configuration_Templates\Oracle.cfg.xml" target="ConfigurationTemplates\Oracle.cfg.xml" />
+        <file src="Configuration_Templates\PostgreSQL.cfg.xml" target="ConfigurationTemplates\PostgreSQL.cfg.xml" />
+        <file src="Configuration_Templates\SQLite.cfg.xml" target="ConfigurationTemplates\SQLite.cfg.xml" />
+        <file src="Configuration_Templates\SybaseASE.cfg.xml" target="ConfigurationTemplates\SybaseASE.cfg.xml" />
+        <file src="Configuration_Templates\SybaseSQLAnywhere.cfg.xml" target="Configuration_Templates\SybaseSQLAnywhere.cfg.xml" />
+        <file src="lib\net40\NHibernate.dll" target="lib\net40\NHibernate.dll" />
+        <file src="lib\net40\NHibernate.xml" target="lib\net40\NHibernate.xml" />
+        <file src="nhibernate-configuration.xsd" target="nhibernate-configuration.xsd" />
+        <file src="nhibernate-mapping.xsd" target="nhibernate-mapping.xsd" />
+        <file src="readme.html" target="NHibernate.readme.html" />
+        <file src="releasenotes.txt" target="NHibernate.releasenotes.txt" />
+    </files>
+</package>
